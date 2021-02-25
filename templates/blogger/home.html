@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    {% for article in articles %}
+        <article>
+            <h1 style="color: blue;">{{article.title}} </h1>
+            <p style="color: black;">{{article.description}} </p>
+            <p style="color: red;">{{article.author}} </p>
+        </article>
+    {% endfor %}
+</body>
+</html>
